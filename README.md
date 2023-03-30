@@ -25,3 +25,5 @@ gcc -o dist/helloworld helloworld.c && ./dist/helloworld
 ## `#include <stdio.h>`ってなに？
 
 `printf`などを読み込む、インポートするためのもの
+
+環境が違っても安全に実行させるために必要
