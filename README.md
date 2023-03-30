@@ -21,3 +21,7 @@ gcc -o dist/helloworld helloworld.c
 ```
 gcc -o dist/helloworld helloworld.c && ./dist/helloworld
 ```
+
+## `#include <stdio.h>`ってなに？
+
+`printf`などを読み込む、インポートするためのもの
