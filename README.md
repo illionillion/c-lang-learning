@@ -8,6 +8,12 @@
 gcc -o dist/helloworld helloworld.c
 ```
 
+あらかじめフォルダを作成しておく
+
+```
+mkdir dist
+```
+
 ## 実行
 
 コンパイルされたファイル名だけで実行できる
