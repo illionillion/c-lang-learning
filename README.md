@@ -33,3 +33,11 @@ gcc -o dist/helloworld helloworld.c && ./dist/helloworld
 `printf`などを読み込む、インポートするためのもの
 
 環境が違っても安全に実行させるために必要
+
+## 標準出力・リダイレクション
+
+プログラムの`printf`をテキストファイルに出力
+
+```
+./dist/{コンパイルされたファイル} > {出力ファイル名}.txt
+```
