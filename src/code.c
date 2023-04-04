@@ -5,4 +5,3 @@ int main(void){
     printf("16進数の20は10進数で%dです。\n", 0x20);
     printf("16進数の Aは10進数で%dです。\n",0x0A);
 }
-
