@@ -5,7 +5,7 @@
 `gcc -o {コンパイル先ファイル名} {ファイル名}`
 
 ```
-gcc -o dist/helloworld helloworld.c
+gcc -o dist/helloworld src/helloworld.c
 ```
 
 あらかじめフォルダを作成しておく
@@ -25,7 +25,7 @@ mkdir dist
 以下でコンパイルと実行をまとめてできる
 
 ```
-gcc -o dist/helloworld helloworld.c && ./dist/helloworld
+gcc -o dist/helloworld src/helloworld.c && ./dist/helloworld
 ```
 
 ## `#include <stdio.h>`ってなに？
